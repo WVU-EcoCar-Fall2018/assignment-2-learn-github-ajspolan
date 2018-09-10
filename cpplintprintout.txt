@@ -1,0 +1,16 @@
+cpplint hellomake.c hellofunc.c hellomake.h
+hellomake.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+hellomake.c:1:  Should have a space between // and comment  [whitespace/comments] [4]
+hellomake.c:2:  Include the directory when naming .h files  [build/include_subdir] [4]
+Done processing hellomake.c
+hellofunc.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+hellofunc.c:1:  Should have a space between // and comment  [whitespace/comments] [4]
+hellofunc.c:3:  Include the directory when naming .h files  [build/include_subdir] [4]
+hellofunc.c:6:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+Done processing hellofunc.c
+hellomake.h:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+hellomake.h:0:  No #ifndef header guard found, suggested CPP variable is: ASSIGNMENT_2_LEARN_GITHUB_AJSPOLAN_HELLOMAKE_H_  [build/header_guard] [5]
+hellomake.h:1:  Should have a space between // and comment  [whitespace/comments] [4]
+Done processing hellomake.h
+Total errors found: 10
+

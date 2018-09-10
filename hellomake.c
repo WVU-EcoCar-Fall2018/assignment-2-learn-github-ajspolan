@@ -1,5 +1,5 @@
 //hellomake.c
-#include <hellomake.h>
+#include "hellomake.h"
 
 int main() {
   // call a function in another file
